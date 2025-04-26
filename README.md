@@ -1,25 +1,39 @@
-Proyecto: Recetario Web
-Este proyecto es un sitio web sencillo de recetas de cocina, desarrollado como práctica de HTML, CSS y Git/GitHub.
+# 📖 Proyecto: Recetas Web
 
-El objetivo principal fue aprender a:
+---
 
-Crear una estructura web básica con navegación.
+## ✨ Descripción
 
-Organizar recetas usando tarjetas (cards).
+Este proyecto es un sitio web sencillo de recetas de cocina, desarrollado como práctica de **Git/GitHub**.
 
-Implementar un botón para activar el modo oscuro (dark mode).
+Incluye funcionalidades como:
 
-Manejar ramas y realizar merges con resolución de conflictos.
+- Navegación entre páginas.
+- Organización de recetas en tarjetas (`cards`).
+- Implementación de modo oscuro (dark mode).
+- Despliegue en GitHub Pages.
 
-Desplegar el sitio en GitHub Pages.
+---
 
-El recetario incluye categorías como:
+## 🎯 Objetivos de Aprendizaje
 
-Sándwiches
+- 📄 Crear una estructura básica en HTML.
+- 🎨 Aplicar estilos con CSS.
+- 🔀 Trabajar con ramas y resolver conflictos de merge.
+- 🌗 Alternar entre modo claro y oscuro con JavaScript.
+- 🚀 Publicar el proyecto usando GitHub Pages.
 
-Pizzas
+---
 
-Sopas
+## 🍽️ Categorías de Recetas
+
+- 🥪 Sándwiches
+- 🍕 Pizzas
+- 🍲 Sopas
+
+---
 
 
-Además, cuenta con un menú de navegación estilizado y un diseño amigable para el usuario.
+# 🚀 Visitar el sitio publicado
+
+[🔗 Ver Recetario en GitHub Pages](https://joseguir.github.io/receta-cocina-prog3/)
