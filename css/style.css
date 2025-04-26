@@ -1,11 +1,24 @@
 nav {
-    background-color: #ffb347; /* color durazno, cálido de comida */
+    background-color: #ffb347;
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
-
+  
+  #menuToggle {
+    background-color: #4b2e0d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    display: none; 
+  }
+  
   nav ul {
     list-style: none;
     margin: 0;
@@ -13,18 +26,18 @@ nav {
     display: flex;
     gap: 20px;
   }
-
+  
   nav ul li a {
     text-decoration: none;
-    color: #4b2e0d; 
+    color: #4b2e0d;
     font-weight: bold;
     font-size: 18px;
   }
-
+  
   nav ul li a:hover {
     color: #ffffff;
   }
-
+  
   #darkModeBtn {
     background-color: #4b2e0d;
     color: #ffffff;
@@ -34,9 +47,30 @@ nav {
     cursor: pointer;
     font-weight: bold;
   }
-
+  
   #darkModeBtn:hover {
     background-color: #2f1b06;
+  }
+  
+  /* 🎯 Responsive */
+  @media (max-width: 768px) {
+    #menuToggle {
+      display: block; 
+    }
+  
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+      display: none; 
+    }
+  
+    nav ul.show {
+      display: flex; 
+    }
+  
+    nav ul li a {
+      font-size: 20px;
+    }
   }
 
 .card {
@@ -68,3 +102,6 @@ nav {
     padding: 15px 0;
     margin-top: 20px;
   }
+
+
+  
